@@ -278,26 +278,39 @@
                                     <constraint firstAttribute="width" constant="414" id="sXK-9L-i8Y"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JXe-Tu-Yer">
+                                <rect key="frame" x="108" y="106" width="199" height="168"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="actionimage:" destination="lEd-Ky-Ws8" eventType="touchUpInside" id="cW8-t8-Yqj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F3B-JI-IKR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="7iK-LQ-HPa" firstAttribute="top" secondItem="bvd-fc-F9T" secondAttribute="top" id="33F-Jq-dCH"/>
                             <constraint firstAttribute="bottom" secondItem="5eX-TT-rEw" secondAttribute="bottom" id="BQ6-fd-2wD"/>
+                            <constraint firstItem="JXe-Tu-Yer" firstAttribute="top" secondItem="F3B-JI-IKR" secondAttribute="top" constant="18" id="D5D-mH-een"/>
                             <constraint firstItem="AhA-Qu-fBS" firstAttribute="top" secondItem="F3B-JI-IKR" secondAttribute="top" constant="18" id="GCv-kU-3Mp"/>
                             <constraint firstItem="AhA-Qu-fBS" firstAttribute="leading" secondItem="F3B-JI-IKR" secondAttribute="leading" constant="108" id="GtR-Ek-8dr"/>
                             <constraint firstItem="7iK-LQ-HPa" firstAttribute="leading" secondItem="F3B-JI-IKR" secondAttribute="leading" id="MZN-QG-lLZ"/>
                             <constraint firstItem="F3B-JI-IKR" firstAttribute="trailing" secondItem="AhA-Qu-fBS" secondAttribute="trailing" constant="107" id="QZb-A3-WXk"/>
+                            <constraint firstItem="JXe-Tu-Yer" firstAttribute="trailing" secondItem="AhA-Qu-fBS" secondAttribute="trailing" id="RlZ-Zp-MAK"/>
                             <constraint firstItem="5eX-TT-rEw" firstAttribute="leading" secondItem="bvd-fc-F9T" secondAttribute="leading" id="a7C-n4-o0E"/>
                             <constraint firstAttribute="bottom" secondItem="7iK-LQ-HPa" secondAttribute="bottom" id="aDA-p3-t8L"/>
+                            <constraint firstItem="JXe-Tu-Yer" firstAttribute="width" secondItem="AhA-Qu-fBS" secondAttribute="width" id="dJA-oh-NQl"/>
+                            <constraint firstItem="JXe-Tu-Yer" firstAttribute="leading" secondItem="AhA-Qu-fBS" secondAttribute="leading" id="nS7-Tw-gUd"/>
                             <constraint firstAttribute="trailing" secondItem="5eX-TT-rEw" secondAttribute="trailing" id="oCW-k4-z03"/>
                             <constraint firstItem="7iK-LQ-HPa" firstAttribute="trailing" secondItem="F3B-JI-IKR" secondAttribute="trailing" id="shJ-Vf-Ohp"/>
                             <constraint firstItem="5eX-TT-rEw" firstAttribute="top" secondItem="AhA-Qu-fBS" secondAttribute="bottom" constant="45" id="ucu-Y9-deU"/>
+                            <constraint firstItem="JXe-Tu-Yer" firstAttribute="height" secondItem="AhA-Qu-fBS" secondAttribute="height" id="zzw-Vn-sht"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5NF-a4-LlH"/>
                     <connections>
-                        <outlet property="accountimageview" destination="AhA-Qu-fBS" id="U0Q-P6-yjE"/>
+                        <outlet property="accountprofile" destination="AhA-Qu-fBS" id="7Fl-Sg-dOo"/>
                         <outlet property="emailtextfiled" destination="7Ad-3q-3Gt" id="pkm-e9-80j"/>
                         <outlet property="firstnametextfield" destination="pJ3-AQ-hqF" id="fFS-UB-zpv"/>
                         <outlet property="lastnametextfiled" destination="AhO-sR-ggV" id="dH0-Iv-hlO"/>
