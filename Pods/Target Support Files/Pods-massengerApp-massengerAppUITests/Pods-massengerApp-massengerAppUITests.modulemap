@@ -1,0 +1,6 @@
+framework module Pods_massengerApp_massengerAppUITests {
+  umbrella header "Pods-massengerApp-massengerAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

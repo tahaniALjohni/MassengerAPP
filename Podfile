@@ -6,6 +6,8 @@ target 'massengerApp' do
   use_frameworks!
 
   # Pods for massengerApp
+pod 'Firebase/Auth'
+
 
   target 'massengerAppTests' do
     inherit! :search_paths

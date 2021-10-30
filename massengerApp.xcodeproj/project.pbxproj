@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3C4FB8BA797AFE76C25803 /* Pods_massengerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F71E31F1C6CF85E0FFA38E /* Pods_massengerAppTests.framework */; };
+		111B2C01C20F84E42FF5B1E0 /* Pods_massengerApp_massengerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504CB6ACAA324F7F64B2F8A1 /* Pods_massengerApp_massengerAppUITests.framework */; };
+		563C105F272A3A7700DE8711 /* Zen_Old_Mincho in Resources */ = {isa = PBXBuildFile; fileRef = 563C105E272A3A7700DE8711 /* Zen_Old_Mincho */; };
+		563C1066272A3AAF00DE8711 /* ZenOldMincho-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 563C1065272A3AAF00DE8711 /* ZenOldMincho-Black.ttf */; };
+		563C1068272A3ABC00DE8711 /* ZenOldMincho-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 563C1067272A3ABC00DE8711 /* ZenOldMincho-Bold.ttf */; };
+		563C106A272A3AC300DE8711 /* ZenOldMincho-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 563C1069272A3AC300DE8711 /* ZenOldMincho-Regular.ttf */; };
+		563C1073272AD20600DE8711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563C1072272AD20600DE8711 /* Assets.xcassets */; };
 		566F3A77272946B50082AD39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F3A76272946B50082AD39 /* AppDelegate.swift */; };
 		566F3A79272946B50082AD39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F3A78272946B50082AD39 /* SceneDelegate.swift */; };
 		566F3A7B272946B50082AD39 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F3A7A272946B50082AD39 /* ConversationViewController.swift */; };
 		566F3A7E272946B50082AD39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566F3A7C272946B50082AD39 /* Main.storyboard */; };
-		566F3A80272946B70082AD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566F3A7F272946B70082AD39 /* Assets.xcassets */; };
 		566F3A83272946B70082AD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566F3A81272946B70082AD39 /* LaunchScreen.storyboard */; };
 		566F3A8E272946B70082AD39 /* massengerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F3A8D272946B70082AD39 /* massengerAppTests.swift */; };
 		566F3A98272946B70082AD39 /* massengerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F3A97272946B70082AD39 /* massengerAppUITests.swift */; };
@@ -21,6 +27,7 @@
 		566F3AB127296CEA0082AD39 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F3AB027296CEA0082AD39 /* RegisterViewController.swift */; };
 		566F3AB327296D0F0082AD39 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F3AB227296D0F0082AD39 /* NewConversationViewController.swift */; };
 		566F3AB527296D370082AD39 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F3AB427296D370082AD39 /* ProfileViewController.swift */; };
+		62C02B3571231A277F98FA94 /* Pods_massengerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E04E7F31FF788A61E5FDDD /* Pods_massengerApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +48,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		504CB6ACAA324F7F64B2F8A1 /* Pods_massengerApp_massengerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_massengerApp_massengerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		563C105E272A3A7700DE8711 /* Zen_Old_Mincho */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Zen_Old_Mincho; path = ../../../Downloads/Zen_Old_Mincho; sourceTree = "<group>"; };
+		563C1061272A3A8800DE8711 /* ZenOldMincho-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Black.ttf"; sourceTree = "<group>"; };
+		563C1062272A3A8800DE8711 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		563C1063272A3A8800DE8711 /* ZenOldMincho-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Bold.ttf"; sourceTree = "<group>"; };
+		563C1064272A3A8800DE8711 /* ZenOldMincho-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Regular.ttf"; sourceTree = "<group>"; };
+		563C1065272A3AAF00DE8711 /* ZenOldMincho-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Black.ttf"; sourceTree = "<group>"; };
+		563C1067272A3ABC00DE8711 /* ZenOldMincho-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Bold.ttf"; sourceTree = "<group>"; };
+		563C1069272A3AC300DE8711 /* ZenOldMincho-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Regular.ttf"; sourceTree = "<group>"; };
+		563C106C272A3AD300DE8711 /* ZenOldMincho-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Black.ttf"; sourceTree = "<group>"; };
+		563C106D272A3AD300DE8711 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		563C106E272A3AD300DE8711 /* ZenOldMincho-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Bold.ttf"; sourceTree = "<group>"; };
+		563C106F272A3AD300DE8711 /* ZenOldMincho-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Regular.ttf"; sourceTree = "<group>"; };
+		563C1072272AD20600DE8711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566F3A73272946B50082AD39 /* massengerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = massengerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		566F3A76272946B50082AD39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		566F3A78272946B50082AD39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		566F3A7A272946B50082AD39 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		566F3A7D272946B50082AD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		566F3A7F272946B70082AD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566F3A82272946B70082AD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		566F3A84272946B70082AD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		566F3A89272946B70082AD39 /* massengerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = massengerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +79,14 @@
 		566F3AB027296CEA0082AD39 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		566F3AB227296D0F0082AD39 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		566F3AB427296D370082AD39 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7674F41E7F86B01F3250033F /* Pods-massengerApp-massengerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-massengerApp-massengerAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-massengerApp-massengerAppUITests/Pods-massengerApp-massengerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1F799F7FC182411B80D7D47 /* Pods-massengerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-massengerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-massengerAppTests/Pods-massengerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E8144243F624D70CF4C494 /* Pods-massengerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-massengerApp.release.xcconfig"; path = "Target Support Files/Pods-massengerApp/Pods-massengerApp.release.xcconfig"; sourceTree = "<group>"; };
+		ABCF348CE3646DADCBCAC439 /* Pods-massengerApp-massengerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-massengerApp-massengerAppUITests.release.xcconfig"; path = "Target Support Files/Pods-massengerApp-massengerAppUITests/Pods-massengerApp-massengerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1007621C473D2B696B2AA8D /* Pods-massengerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-massengerAppTests.release.xcconfig"; path = "Target Support Files/Pods-massengerAppTests/Pods-massengerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1E04E7F31FF788A61E5FDDD /* Pods_massengerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_massengerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5CB26578BE055B24A5A9335 /* Pods-massengerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-massengerApp.debug.xcconfig"; path = "Target Support Files/Pods-massengerApp/Pods-massengerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F5F71E31F1C6CF85E0FFA38E /* Pods_massengerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_massengerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C02B3571231A277F98FA94 /* Pods_massengerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3C4FB8BA797AFE76C25803 /* Pods_massengerAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,19 +110,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111B2C01C20F84E42FF5B1E0 /* Pods_massengerApp_massengerAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18DA6BAF3DD992F96E41581C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E04E7F31FF788A61E5FDDD /* Pods_massengerApp.framework */,
+				504CB6ACAA324F7F64B2F8A1 /* Pods_massengerApp_massengerAppUITests.framework */,
+				F5F71E31F1C6CF85E0FFA38E /* Pods_massengerAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		563C1060272A3A8700DE8711 /* Zen_Old_Mincho */ = {
+			isa = PBXGroup;
+			children = (
+				563C1061272A3A8800DE8711 /* ZenOldMincho-Black.ttf */,
+				563C1062272A3A8800DE8711 /* OFL.txt */,
+				563C1063272A3A8800DE8711 /* ZenOldMincho-Bold.ttf */,
+				563C1064272A3A8800DE8711 /* ZenOldMincho-Regular.ttf */,
+			);
+			path = Zen_Old_Mincho;
+			sourceTree = "<group>";
+		};
+		563C106B272A3AD300DE8711 /* Zen_Old_Mincho */ = {
+			isa = PBXGroup;
+			children = (
+				563C106C272A3AD300DE8711 /* ZenOldMincho-Black.ttf */,
+				563C106D272A3AD300DE8711 /* OFL.txt */,
+				563C106E272A3AD300DE8711 /* ZenOldMincho-Bold.ttf */,
+				563C106F272A3AD300DE8711 /* ZenOldMincho-Regular.ttf */,
+			);
+			path = Zen_Old_Mincho;
+			sourceTree = "<group>";
+		};
 		566F3A6A272946B50082AD39 = {
 			isa = PBXGroup;
 			children = (
+				563C1069272A3AC300DE8711 /* ZenOldMincho-Regular.ttf */,
+				563C1067272A3ABC00DE8711 /* ZenOldMincho-Bold.ttf */,
+				563C1065272A3AAF00DE8711 /* ZenOldMincho-Black.ttf */,
 				566F3A75272946B50082AD39 /* massengerApp */,
+				563C106B272A3AD300DE8711 /* Zen_Old_Mincho */,
 				566F3A8C272946B70082AD39 /* massengerAppTests */,
 				566F3A96272946B70082AD39 /* massengerAppUITests */,
 				566F3A74272946B50082AD39 /* Products */,
+				7909173DB4A9C0C712E7ED3A /* Pods */,
+				18DA6BAF3DD992F96E41581C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,11 +178,11 @@
 		566F3A75272946B50082AD39 /* massengerApp */ = {
 			isa = PBXGroup;
 			children = (
+				563C105E272A3A7700DE8711 /* Zen_Old_Mincho */,
 				566F3AAB27296B890082AD39 /* Controllers */,
 				566F3AAA27296B590082AD39 /* Views */,
 				566F3AA927296B460082AD39 /* Models */,
 				566F3AA627296B090082AD39 /* Resources */,
-				566F3A84272946B70082AD39 /* Info.plist */,
 			);
 			path = massengerApp;
 			sourceTree = "<group>";
@@ -129,6 +198,7 @@
 		566F3A96272946B70082AD39 /* massengerAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				563C1060272A3A8700DE8711 /* Zen_Old_Mincho */,
 				566F3A97272946B70082AD39 /* massengerAppUITests.swift */,
 				566F3A99272946B70082AD39 /* massengerAppUITestsLaunchTests.swift */,
 			);
@@ -138,6 +208,7 @@
 		566F3AA627296B090082AD39 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				566F3A84272946B70082AD39 /* Info.plist */,
 				566F3A76272946B50082AD39 /* AppDelegate.swift */,
 				566F3A78272946B50082AD39 /* SceneDelegate.swift */,
 				566F3AA727296B3F0082AD39 /* Extensions.swift */,
@@ -155,7 +226,7 @@
 		566F3AAA27296B590082AD39 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				566F3A7F272946B70082AD39 /* Assets.xcassets */,
+				563C1072272AD20600DE8711 /* Assets.xcassets */,
 				566F3AAC27296BAB0082AD39 /* storyboards */,
 			);
 			path = Views;
@@ -190,6 +261,19 @@
 			path = LogReg;
 			sourceTree = "<group>";
 		};
+		7909173DB4A9C0C712E7ED3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5CB26578BE055B24A5A9335 /* Pods-massengerApp.debug.xcconfig */,
+				A4E8144243F624D70CF4C494 /* Pods-massengerApp.release.xcconfig */,
+				7674F41E7F86B01F3250033F /* Pods-massengerApp-massengerAppUITests.debug.xcconfig */,
+				ABCF348CE3646DADCBCAC439 /* Pods-massengerApp-massengerAppUITests.release.xcconfig */,
+				A1F799F7FC182411B80D7D47 /* Pods-massengerAppTests.debug.xcconfig */,
+				B1007621C473D2B696B2AA8D /* Pods-massengerAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 566F3A9D272946B70082AD39 /* Build configuration list for PBXNativeTarget "massengerApp" */;
 			buildPhases = (
+				7AAD41A2B446A4D6262F3656 /* [CP] Check Pods Manifest.lock */,
 				566F3A6F272946B50082AD39 /* Sources */,
 				566F3A70272946B50082AD39 /* Frameworks */,
 				566F3A71272946B50082AD39 /* Resources */,
+				65E21FAB47E5F3D6B3E20DB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 566F3AA0272946B70082AD39 /* Build configuration list for PBXNativeTarget "massengerAppTests" */;
 			buildPhases = (
+				E4BC1DA34543B7155459BADA /* [CP] Check Pods Manifest.lock */,
 				566F3A85272946B70082AD39 /* Sources */,
 				566F3A86272946B70082AD39 /* Frameworks */,
 				566F3A87272946B70082AD39 /* Resources */,
@@ -232,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 566F3AA3272946B70082AD39 /* Build configuration list for PBXNativeTarget "massengerAppUITests" */;
 			buildPhases = (
+				DDF12683DCB58A4C502F70F2 /* [CP] Check Pods Manifest.lock */,
 				566F3A8F272946B70082AD39 /* Sources */,
 				566F3A90272946B70082AD39 /* Frameworks */,
 				566F3A91272946B70082AD39 /* Resources */,
+				F09F672B2CC1D2122DAE3D61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,7 +384,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				566F3A83272946B70082AD39 /* LaunchScreen.storyboard in Resources */,
-				566F3A80272946B70082AD39 /* Assets.xcassets in Resources */,
+				563C105F272A3A7700DE8711 /* Zen_Old_Mincho in Resources */,
+				563C1068272A3ABC00DE8711 /* ZenOldMincho-Bold.ttf in Resources */,
+				563C106A272A3AC300DE8711 /* ZenOldMincho-Regular.ttf in Resources */,
+				563C1073272AD20600DE8711 /* Assets.xcassets in Resources */,
+				563C1066272A3AAF00DE8711 /* ZenOldMincho-Black.ttf in Resources */,
 				566F3A7E272946B50082AD39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +408,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65E21FAB47E5F3D6B3E20DB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-massengerApp/Pods-massengerApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-massengerApp/Pods-massengerApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-massengerApp/Pods-massengerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AAD41A2B446A4D6262F3656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-massengerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF12683DCB58A4C502F70F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-massengerApp-massengerAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4BC1DA34543B7155459BADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-massengerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09F672B2CC1D2122DAE3D61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-massengerApp-massengerAppUITests/Pods-massengerApp-massengerAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-massengerApp-massengerAppUITests/Pods-massengerApp-massengerAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-massengerApp-massengerAppUITests/Pods-massengerApp-massengerAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		566F3A6F272946B50082AD39 /* Sources */ = {
@@ -502,13 +698,14 @@
 		};
 		566F3A9E272946B70082AD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5CB26578BE055B24A5A9335 /* Pods-massengerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = massengerApp/Info.plist;
+				INFOPLIST_FILE = massengerApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -529,13 +726,14 @@
 		};
 		566F3A9F272946B70082AD39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E8144243F624D70CF4C494 /* Pods-massengerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = massengerApp/Info.plist;
+				INFOPLIST_FILE = massengerApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -556,6 +754,7 @@
 		};
 		566F3AA1272946B70082AD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F799F7FC182411B80D7D47 /* Pods-massengerAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +779,7 @@
 		};
 		566F3AA2272946B70082AD39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1007621C473D2B696B2AA8D /* Pods-massengerAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -604,6 +804,7 @@
 		};
 		566F3AA4272946B70082AD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7674F41E7F86B01F3250033F /* Pods-massengerApp-massengerAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -626,6 +827,7 @@
 		};
 		566F3AA5272946B70082AD39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCF348CE3646DADCBCAC439 /* Pods-massengerApp-massengerAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
