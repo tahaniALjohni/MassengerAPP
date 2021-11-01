@@ -31,7 +31,7 @@ class LoginViewController: UIViewController {
                 }
                 let user = result.user
                 print("logged in user: \(user)")
-            })
+           })
     }
     
     

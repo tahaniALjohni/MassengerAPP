@@ -29,8 +29,7 @@ class RegisterViewController: UIViewController , UIImagePickerControllerDelegate
         accountprofile.clipsToBounds = true
 
         // Do any additional setup after loading the view.
-        
-        self.showAlert(message: "This is Tahani")
+
     }
     
     @IBAction func registerbtn(_ sender: UIButton) {
