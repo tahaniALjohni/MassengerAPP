@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E3C4FB8BA797AFE76C25803 /* Pods_massengerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F71E31F1C6CF85E0FFA38E /* Pods_massengerAppTests.framework */; };
 		111B2C01C20F84E42FF5B1E0 /* Pods_massengerApp_massengerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504CB6ACAA324F7F64B2F8A1 /* Pods_massengerApp_massengerAppUITests.framework */; };
+		561EF448272E73E40060721F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 561EF447272E73E40060721F /* GoogleService-Info.plist */; };
 		563C105F272A3A7700DE8711 /* Zen_Old_Mincho in Resources */ = {isa = PBXBuildFile; fileRef = 563C105E272A3A7700DE8711 /* Zen_Old_Mincho */; };
 		563C1066272A3AAF00DE8711 /* ZenOldMincho-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 563C1065272A3AAF00DE8711 /* ZenOldMincho-Black.ttf */; };
 		563C1068272A3ABC00DE8711 /* ZenOldMincho-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 563C1067272A3ABC00DE8711 /* ZenOldMincho-Bold.ttf */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		504CB6ACAA324F7F64B2F8A1 /* Pods_massengerApp_massengerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_massengerApp_massengerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		561EF447272E73E40060721F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		563C105E272A3A7700DE8711 /* Zen_Old_Mincho */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Zen_Old_Mincho; path = ../../../Downloads/Zen_Old_Mincho; sourceTree = "<group>"; };
 		563C1061272A3A8800DE8711 /* ZenOldMincho-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZenOldMincho-Black.ttf"; sourceTree = "<group>"; };
 		563C1062272A3A8800DE8711 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				566F3A76272946B50082AD39 /* AppDelegate.swift */,
 				566F3A78272946B50082AD39 /* SceneDelegate.swift */,
 				566F3AA727296B3F0082AD39 /* Extensions.swift */,
+				561EF447272E73E40060721F /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			files = (
 				566F3A83272946B70082AD39 /* LaunchScreen.storyboard in Resources */,
 				563C105F272A3A7700DE8711 /* Zen_Old_Mincho in Resources */,
+				561EF448272E73E40060721F /* GoogleService-Info.plist in Resources */,
 				563C1068272A3ABC00DE8711 /* ZenOldMincho-Bold.ttf in Resources */,
 				563C106A272A3AC300DE8711 /* ZenOldMincho-Regular.ttf in Resources */,
 				563C1073272AD20600DE8711 /* Assets.xcassets in Resources */,

@@ -7,6 +7,9 @@ target 'massengerApp' do
 
   # Pods for massengerApp
 pod 'Firebase/Auth'
+pod 'Firebase/Analytics'
+pod 'Firebase/Database'
+
 
 
   target 'massengerAppTests' do

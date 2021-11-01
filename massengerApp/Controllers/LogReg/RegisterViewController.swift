@@ -15,19 +15,56 @@ class RegisterViewController: UIViewController , UIImagePickerControllerDelegate
     
     @IBOutlet weak var lastnametextfiled: UITextField!
     
+    @IBOutlet weak var passwordtextfiled: UITextField!
     @IBOutlet weak var emailtextfiled: UITextField!
     
-    @IBOutlet weak var passwordtextfiled: UITextField!
+    @IBOutlet weak var btnimage: UIButton!
+    
     @IBOutlet weak var accountprofile: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        accountprofile.layer.cornerRadius = accountprofile.frame.height / 2
+        accountprofile.clipsToBounds = true
 
         // Do any additional setup after loading the view.
+        
+        self.showAlert(message: "This is Tahani")
     }
     
     @IBAction func registerbtn(_ sender: UIButton) {
+        let emil = emailtextfiled.text!
+        let password = passwordtextfiled.text!
+        let firstname = firstnametextfield.text!
+        let lastname = lastnametextfiled.text!
+        
+        Auth.auth().createUser(withEmail: emil , password: password, completion: { authResult , error  in
+            if error != nil{
+                if let errCode = AuthErrorCode(rawValue: error!._code) {
+                    switch errCode{
+                    case.invalidEmail:
+                        print("invalid Email")
+                    case .emailAlreadyInUse:
+                        print("the email has used")
+                    case.weakPassword:
+                        print("the password must be 6 characters logn or more")
+                    default:
+                        print("Create User Eroor : \(error)")
+                    }
+                }}else{
+        print("all good ... continue")
+                }
+            guard let result = authResult,error == nil else{
+                print("error creating user")
+        return
     }
-    
+    let user = result.user
+    print("Created User: \(user)")
+})
+        }
+                
+       
    
     @IBAction func actionimage(_ sender: UIButton) {
         showPhotoAlert()

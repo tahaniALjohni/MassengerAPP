@@ -311,10 +311,11 @@
                     <navigationItem key="navigationItem" id="5NF-a4-LlH"/>
                     <connections>
                         <outlet property="accountprofile" destination="AhA-Qu-fBS" id="7Fl-Sg-dOo"/>
+                        <outlet property="btnimage" destination="JXe-Tu-Yer" id="gc3-Sg-Wow"/>
                         <outlet property="emailtextfiled" destination="7Ad-3q-3Gt" id="pkm-e9-80j"/>
                         <outlet property="firstnametextfield" destination="pJ3-AQ-hqF" id="fFS-UB-zpv"/>
                         <outlet property="lastnametextfiled" destination="AhO-sR-ggV" id="dH0-Iv-hlO"/>
-                        <outlet property="passwordtextfiled" destination="yhf-FO-LDs" id="s7k-t5-Hcq"/>
+                        <outlet property="passwordtextfiled" destination="yhf-FO-LDs" id="WYF-Wb-L7N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gpc-nL-HIy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

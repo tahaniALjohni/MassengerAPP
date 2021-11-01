@@ -8,7 +8,9 @@
 import UIKit
 
 class ConversationViewController: UIViewController {
-
+    // check to see if user is signed in using ... user defaults
+       // they are, stay on the screen. If not, show the login screen
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
